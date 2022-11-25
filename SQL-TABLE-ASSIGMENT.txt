@@ -1,0 +1,9 @@
+select * from Table
+select name,price from Table
+select name,price,categoryId from Table where price > 50
+select name,price,categoryId from Table where  price < 50 and price > 40
+select name,price,categoryId from Table where  price > 50 and (categoryId = 1 or catedoryId = 2)
+select sapakim from Table
+
+
+
